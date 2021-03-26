@@ -1,5 +1,5 @@
-Feature: # Enter feature name here
-  # Enter feature description here
-
-  Scenario: # Enter scenario name here
-    # Enter steps here
+Feature: welcome to karate
+  Scenario: how to print
+    Given print "Hello World"
+    When print "another Print"
+    Then print 'last print'
