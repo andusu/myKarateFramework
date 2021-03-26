@@ -16,7 +16,6 @@ Scenario: get user information
   And print response
   And match response == {"firstName": "Ase","lastName": "Norval","role": "student-team-leader","id": 139}
 
-@wip
 Scenario: get campus information
   Given url baseUrl
   And path 'api/campuses'
