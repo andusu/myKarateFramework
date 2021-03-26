@@ -61,7 +61,6 @@ Feature: Parameters examples
     #verify each content phone is number
     And match each response.content[*].phone == '#number'
 
-  @wip
   Scenario: hr regions example
     Given url hrUrl
     And path 'regions'
