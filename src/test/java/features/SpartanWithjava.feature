@@ -37,7 +37,7 @@ Feature: Karate Java integration
     * print newSpartan
   #run the static method in that class and capture the result
   #the return map object is represented as a Json
-  @wip
+
   Scenario: Create a spartan with Random Data (JAVA)
     * def SDG = Java.type('utilities.SpartanDataGenerator')
     * def newSpartan = SDG.createSpartan()
