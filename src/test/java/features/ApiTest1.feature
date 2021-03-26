@@ -21,7 +21,7 @@ Feature: exchange rate api tests
     And match header Date == '#present'
     #this equals to headers().hasHeaderWithName("headername") in restAssured
 
-  @wip
+
   Scenario: json body verification
     Given url 'https://api.exchangeratesapi.io/2010-01-12'
     When method get
