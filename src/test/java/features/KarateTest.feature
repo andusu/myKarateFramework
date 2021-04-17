@@ -1,4 +1,4 @@
-Feature: welcome to karate
+Feature: Welcome to My Karate Dojo
 
   Scenario: how to print
     Given print "Hello World"
